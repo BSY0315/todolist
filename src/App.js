@@ -1,5 +1,8 @@
+import React from 'react';
+import TemplateContainer from './containers/TemplateContainer';
+
 function App() {
-  return <div>test</div>;
+  return <TemplateContainer></TemplateContainer>;
 }
 
 export default App;

@@ -1,9 +1,9 @@
 import { combineReducers } from 'redux';
-import todo from './Todo';
+import todoTemplate from './TodoTemplate';
 import todoList from './TodoList';
 
 const rootReducer = combineReducers({
-  todo,
+  todoTemplate,
   todoList
 });
 
